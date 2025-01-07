@@ -5,11 +5,12 @@ import Title  from './components/Title'
 import OpenScreen from './components/OpenScreen'
 import './App.css'
 import MainScreen from './components/MainScreen'
+import ScreenSwitch from './components/ScreenSwitch'
 function App() {
   return (
     <>
       <div>
-        {true ? <OpenScreen/> : <MainScreen/>}
+        <ScreenSwitch/>
       </div>
     </>
   )

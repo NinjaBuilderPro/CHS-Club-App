@@ -6,16 +6,14 @@ const Title = () => {
           <h1 style = 
           {{
             color: "green",
-            position: "absolute",
-            top: "10%",
           }}>
             CHS Club Finder
            </h1>
-          <p style={{
+          <h2 style={{
             color: "lightGreen",
           }}>
             This is my app that I'm making for central highschool
-          </p>
+          </h2>
         </font>
       </div>
     );
