@@ -1,24 +1,25 @@
 const ClubProp = () => {
     return ( 
         <div className="ClubProp">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <p style={{
-                fontSize: "40px",
-                border: "8px solid green",
-                borderRadius: "16px",
+                fontSize: "4vi",
+                border: "0.5vi solid green",
+                borderRadius: "2vi",
                 position: "relative",
-                bottom: "200px",
-                right: "500px",
-                width: "300px"
+                bottom: "10vw",
+                right: "30vw",
+                width: "20vw"
             }}>
                 Club-1
             </p>
             <div className="ClubInfo" style={{
-                fontSize: "28px",
-                border: "20px solid green",
+                fontSize: "2vw",
+                border: "1vw solid green",
                 position: "relative",
-                bottom: "200px",
-                right: "500px",
-                width: "600px"
+                bottom: "10vw",
+                right: "30vw",
+                width: "30vw"
             }}>
                 <p>
                     Catagories: Math, Science<br/>

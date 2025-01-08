@@ -14,7 +14,7 @@ const ScreenSwitch = () => {
             <button  onClick={handleClick}
               id="start" 
               style={{color: "green", 
-                  borderWidth: "4px", 
+                  borderWidth: "0.4vw", 
                       borderColor: "green", 
                       position: "bottom"}}>
               Start
