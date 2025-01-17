@@ -1,0 +1,12 @@
+.MainScreen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vi;
+    background-color: darkkhaki;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
