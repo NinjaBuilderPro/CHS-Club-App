@@ -15,8 +15,7 @@ const ScreenSwitch = () => {
               id="start" 
               style={{color: "green", 
                   borderWidth: "0.4vw", 
-                      borderColor: "green", 
-                      position: "bottom"}}>
+                      borderColor: "green", }}>
               Start
             </button> </div> : <MainScreen/>}
     </div>

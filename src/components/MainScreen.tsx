@@ -1,5 +1,4 @@
 import ClubProp from "./ClubProp";
-import React from "react";
 import "./MainScreen.css";
 const MainScreen = () => {
     return (
