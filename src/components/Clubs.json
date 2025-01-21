@@ -1,0 +1,37 @@
+[
+    {
+        "id":  "1",
+        "title": "Robotics",
+        "subjects": "Business",
+        "meetingTime":  "Monday, Tuesday, Thursday, Saturday",
+        "calendar": "https://www.chaos131.com/news/calendar"
+    },
+    {
+        "id": "2",
+        "title": "NAHS",
+        "subjects": "Art, Honors Society",
+        "meetingTime": "Wednesday",
+        "calendar": ""
+    },
+    {
+        "id": "3",
+        "title": "DECA",
+        "subjects": "Business",
+        "meetingTime": "Monday",
+        "calendar": "https://calendar.google.com/calendar/embed?src=c_classroom279dec35%40group.calendar.google.com&ctz=America%2FNew_York"
+    },
+    {
+        "id": "4",
+        "title": "Tri-M",
+        "subjects": "Music, Honors Society",
+        "meetingTime": "Thursday",
+        "calendar": ""
+    },
+    {
+        "id": "5",
+        "title": "Key Club",
+        "subjects": "Service",
+        "meetingTime": "Wednesday",
+        "calendar": ""
+    }
+]

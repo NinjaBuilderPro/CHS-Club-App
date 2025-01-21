@@ -1,6 +1,12 @@
-const ClubProp = () => {
+interface ClubProps{
+    title: string
+    subjects: string
+    meetingTime: string
+    calendar: string
+}
+const ClubComponent = ({title: title, subjects, meetingTime, calendar}: ClubProps) => {
     return ( 
-        <div className="ClubProp" style={{
+        <div className="ClubComponent" style={{
             position: "relative",
             width: "84vi",
             height: "32vi",
@@ -11,27 +17,29 @@ const ClubProp = () => {
                 border: "2vi solid green",
                 borderRadius: "1vi",
                 position: "absolute",
-                width: "30vi"
+                minWidth: "30vi",
+                backgroundColor: "khaki"
             }}>
-                Club-1
+                {title}
             </div>
             <div className="ClubInfo" style={{
                 fontSize: "2vi",
                 border: "2vi solid green",
                 position: "absolute",
                 width: "80vi",
-                top: "8vi"
+                top: "8vi",
+                backgroundColor: "khaki"
             }}>
                 <p style={{
                     fontSize: "3vi"
                 }}>
-                    Catagories: Math, Science<br/>
-                    Time Commitment: high<br/>
-                    Calendar: (insert link)
+                    Subjects: {subjects}<br/>
+                    Meeting Times: {meetingTime}<br/>
+                    {calendar=="" ? null : <a href={calendar}>Calendar</a>}
                 </p>
             </div>
         </div>
      );
 }
  
-export default ClubProp;
+export default ClubComponent;
