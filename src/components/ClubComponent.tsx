@@ -1,50 +1,49 @@
 interface ClubProps{
     title: string
+    description: string
     subjects: string
+    advisor: string
     meetingTime: string
     calendar: string
 }
-var hasCalendar = true;
-const ClubComponent = ({title: title, subjects, meetingTime, calendar}: ClubProps) => {
-    return ( 
-        <div className="ClubComponent" style={{
-            position: "relative",
-            width: "84vi",
-            top: "3vi",
-            height: `calc(22.8vi + ${hasCalendar ? "0vi" : "4.5vi"})`
+const ClubComponent = ({title, description, subjects, advisor, meetingTime, calendar}: ClubProps) => {
+return ( 
+    <div className="ClubComponent" style={{
+        fontSize: "2vw",
+        border: "0.4vi solid rgb(0, 113, 4)",
+        borderRadius: "1vw",
+        position: "relative",
+        width: "80vw",
+        // top: "7vi",
+        backgroundColor: "white",
+        fontFamily: "Arial"
+    }}>
+        <h1 style={{
+            fontSize: "5vi",
+            fontWeight: "normal",
+            textShadow: "0.2vw 0.2vw gray",
+            textAlign: "center",
         }}>
-            <div style={{
-                fontSize: "4vi",
-                border: "0.4vi solid rgb(0, 113, 4)",
-                borderRadius: "1vi",
-                position: "absolute",
-                minWidth: "30vi",
-                backgroundColor: "ivory",
-                height: "6vi",
-                fontFamily: "Arial"
-            }}>
-                {title}
-            </div>
-            <div className="ClubInfo" style={{
-                fontSize: "2vi",
-                border: "0.4vi solid rgb(0, 113, 4)",
-                borderRadius: "1vi",
-                position: "absolute",
-                width: "80vi",
-                top: "7vi",
-                backgroundColor: "ivory",
-                fontFamily: "Arial"
-            }}>
-                <p style={{
-                    fontSize: "3vi"
-                }}>
-                    Subjects: {subjects}<br/>
-                    Meeting Times: {meetingTime}<br/>
-                    {calendar=="" ? null : <a href={calendar}>Calendar</a>}
-                    {calendar=="" ? hasCalendar = true : hasCalendar = false}
-                </p>
-            </div>
-        </div>
+            {title}
+        </h1>
+        <p style={{
+            textAlign: "center",
+            justifySelf: "center",
+            maxWidth: "60vw"
+        }}>
+            {description}
+        </p>
+        <p style={{
+            fontSize: "3vw",
+            textAlign: "left",
+            paddingLeft: "2vw"
+        }}>
+            Subjects: {subjects}<br/>
+            Advisor: {advisor}<br/>
+            Meeting Times: {meetingTime}<br/>
+            {calendar=="" ? null : <a href={calendar} target="blank">Calendar</a>}
+        </p>
+    </div>
      );
 }
  
