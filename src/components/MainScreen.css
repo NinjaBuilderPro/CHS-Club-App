@@ -6,6 +6,13 @@
     gap: 5vi;
     width: 80vw;
 }
+.SearchBar {
+    width: 70vw;
+    height: 4vw;
+    border: 0.5vw solid rgb(0, 113, 4);
+    border-radius: 0.5vw;
+    font-size: 3vw;
+}
 body {
     background-color: rgb(211, 255, 201);
 }

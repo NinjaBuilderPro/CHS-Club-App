@@ -25,19 +25,13 @@ const MainScreen = () => {
                 if (e.key === "Enter") {
                     setSearchInput(search)
                 }
-            }} onChange={(e) => setSearch(e.target.value)} type="text" placeholder="Search..." style={{
-                width: "70vw",
-                height: "4vw",
-                border: "0.5vw solid rgb(0, 113, 4)",
-                borderRadius: "0.5vw",
-                fontSize: "3vw",
-            }}/>
-            <div style={{height:  "1vw"}}/>
+            }} onChange={(e) => setSearch(e.target.value)} type="text" placeholder="Search..." className="SearchBar"/>
+            <div style={{height: "1vw"}}/>
             <div className="MainFlex">
                 {  
                     clubs.filter((element) => searchBool(element.title)).map((clubs,i) => (
                         <div key={i}>
-                            <ClubComponent title={clubs.title} description={clubs.description} subjects={printArray(clubs.subjects)} advisor = {clubs.Advisor} meetingTime={printArray(clubs.meetingTime)} calendar={clubs.calendar}/>
+                            <ClubComponent title={clubs.title} description={clubs.description} subjects={printArray(clubs.subjects)} advisor = {clubs.advisor} meetingTime={printArray(clubs.meetingTime)} calendar={clubs.calendar}/>
                         </div>
                     ))
                 }

@@ -1,6 +1,9 @@
-.Title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
+.Head {
+    color: green;
+    font-size: 7vw;
+}
+
+.SubHead {
+    color: green;
+    font-size: 2.4vw;
 }

@@ -4,8 +4,8 @@
         "title": "Robotics",
         "description": "Work as a a part of team CHAOS 131 to develop a robot every year to compete at competitions while also helping your community",
         "subjects": ["Math", "Science", "Business"],
-        "Advisor": "Mr. Chretien",
-        "meetingTime":  ["Mondays", "Tuesdays", "Thursdays", "Saturdays"],
+        "advisor": "Mr. Chretien",
+        "meetingTime":  ["Monday", "Tuesday", "Thursday", "Saturday"],
         "calendar": "https://www.chaos131.com/news/calendar"
     },
     {
@@ -13,7 +13,7 @@
         "title": "NAHS",
         "description": "I don't know much about this club",
         "subjects": ["Art", "Honors Society"],
-        "Advisor": "Idk",
+        "advisor": "Idk",
         "meetingTime": ["Wednesday"],
         "calendar": ""
     },
@@ -22,7 +22,7 @@
         "title": "DECA",
         "description": "Learn about business by picking a business related topic, learning about it, and competing through roleplaying business scenarios and completing an exam",
         "subjects": ["Business"],
-        "Advisor": "Miss Fontaine",
+        "advisor": "Miss Fontaine",
         "meetingTime": ["Monday"],
         "calendar": "https://calendar.google.com/calendar/embed?src=c_classroom279dec35%40group.calendar.google.com&ctz=America%2FNew_York"
     },
@@ -31,7 +31,7 @@
         "title": "Tri-M",
         "description": "Lowkey u kinda do nothing",
         "subjects": ["Music", "Honors Society"],
-        "Advisor": "Mrs. Redmond",
+        "advisor": "Mrs. Redmond",
         "meetingTime": ["Thursday"],
         "calendar": ""
     },
@@ -40,8 +40,17 @@
         "title": "Key Club",
         "description": "Help out around your commmunity with many different service opportunities",
         "subjects": ["Service"] ,
-        "Advisor": "Mrs. St Onge",
+        "advisor": "Mrs. St Onge",
         "meetingTime": ["Wednesday"],
+        "calendar": ""
+    },
+    {
+        "id": "6",
+        "title": "Story Tellers Club",
+        "description": "Create and share storys of all kinds with different people",
+        "subjects": [""],
+        "advisor": "Mr. Compagne",
+        "meetingTime": ["Thursday"],
         "calendar": ""
     }
 ]

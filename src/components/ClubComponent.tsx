@@ -1,3 +1,4 @@
+import "./clubcomponent.css";
 interface ClubProps{
     title: string
     description: string
@@ -8,36 +9,14 @@ interface ClubProps{
 }
 const ClubComponent = ({title, description, subjects, advisor, meetingTime, calendar}: ClubProps) => {
 return ( 
-    <div className="ClubComponent" style={{
-        fontSize: "2vw",
-        border: "0.4vi solid rgb(0, 113, 4)",
-        borderRadius: "1vw",
-        position: "relative",
-        width: "80vw",
-        // top: "7vi",
-        backgroundColor: "white",
-        fontFamily: "Arial"
-    }}>
-        <h1 style={{
-            fontSize: "5vi",
-            fontWeight: "normal",
-            textShadow: "0.2vw 0.2vw gray",
-            textAlign: "center",
-        }}>
+    <div className="ClubComponent" >
+        <h1 className="ClubTitle">
             {title}
         </h1>
-        <p style={{
-            textAlign: "center",
-            justifySelf: "center",
-            maxWidth: "60vw"
-        }}>
+        <p className="ClubDescription">
             {description}
         </p>
-        <p style={{
-            fontSize: "3vw",
-            textAlign: "left",
-            paddingLeft: "2vw"
-        }}>
+        <p className="ClubBody">
             Subjects: {subjects}<br/>
             Advisor: {advisor}<br/>
             Meeting Times: {meetingTime}<br/>
