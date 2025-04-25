@@ -31,7 +31,7 @@ const MainScreen = () => {
                 {  
                     clubs.filter((element) => searchBool(element.title)).map((clubs,i) => (
                         <div key={i}>
-                            <ClubComponent title={clubs.title} description={clubs.description} subjects={printArray(clubs.subjects)} advisor = {clubs.advisor} meetingTime={printArray(clubs.meetingTime)} calendar={clubs.calendar}/>
+                            <ClubComponent title={clubs.title} description={clubs.description} subjects={printArray(clubs.subjects)} advisor = {clubs.advisor} meetingTime={printArray(clubs.meetingTime)} calendar={clubs.calendar} image={clubs.image}/>
                         </div>
                     ))
                 }
