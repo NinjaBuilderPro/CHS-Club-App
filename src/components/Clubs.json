@@ -1,7 +1,6 @@
 [
     {
         "id":  "1",
-        "picture": "",
         "title": "Robotics",
         "description": "Work as a a part of team CHAOS 131. Develop a robot every year to compete at competitions while also spreading STEM throughout community.",
         "subjects": ["Math", "Science", "Business", "Service"],
@@ -12,7 +11,6 @@
     },
     {
         "ID": "2",
-        "picture": "",
         "title": "Oracle",
         "description": "Participate in working on the longest running literary magazine in America. Put together a small assortment of artwork, photography, and poetry twice a year.",
         "subjects": ["Art, Writing"],
@@ -23,7 +21,6 @@
     },
     {
         "id": "3",
-        "picture": "",
         "title": "DECA",
         "description": "Learn about business by picking a business related topic, learning about it, and competing through roleplaying business scenarios and completing an exam.",
         "subjects": ["Business"],
@@ -34,7 +31,6 @@
     },
     {
         "id": "4",
-        "picture": "",
         "title": "Tri-M",
         "description": "Spread music throughout the community and participate in events aroundn the music department.",
         "subjects": ["Music", "Honors Society", "Service"],
@@ -45,7 +41,6 @@
     },
     {
         "id": "5",
-        "picture": "",
         "title": "Key Club",
         "description": "Help out around your commmunity with many different service opportunities.",
         "subjects": ["Service"] ,
@@ -56,7 +51,6 @@
     },
     {
         "id": "6",
-        "picture": "",
         "title": "Story Tellers Club",
         "description": "Create and share storys of all kinds with different people.",
         "subjects": ["Writing"],
@@ -64,5 +58,16 @@
         "meetingTime": ["Thursday"],
         "calendar": "",
         "image": ""
+    },
+    {
+        "id": "7",
+        "title": "Math Team",
+        "description": "Go to different math events throughout the state where you compete in five different subjects of math.",
+        "subjects": ["Math"],
+        "advisor": "Mrs. Machnik",
+        "meetingTime": ["Wednesday"],
+        "calendar": "",
+        "image": ""
     }
+
 ]
