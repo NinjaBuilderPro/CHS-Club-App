@@ -2,36 +2,72 @@
     {
         "id":  "1",
         "title": "Robotics",
-        "subjects": "Business",
-        "meetingTime":  "Monday, Tuesday, Thursday, Saturday",
-        "calendar": "https://www.chaos131.com/news/calendar"
+        "description": "Work as a a part of team CHAOS 131. Develop a robot every year to compete at competitions while also spreading STEM throughout community.",
+        "subjects": ["Math", "Science", "Business", "Service"],
+        "advisor": "Mr. Chretien",
+        "meetingTime":  ["Monday", "Tuesday", "Thursday", "Saturday"],
+        "calendar": "https://www.chaos131.com/news/calendar",
+        "image": ""
     },
     {
-        "id": "2",
-        "title": "NAHS",
-        "subjects": "Art, Honors Society",
-        "meetingTime": "Wednesday",
-        "calendar": ""
+        "ID": "2",
+        "title": "Oracle",
+        "description": "Participate in working on the longest running literary magazine in America. Put together a small assortment of artwork, photography, and poetry twice a year.",
+        "subjects": ["Art, Writing"],
+        "advisor": "Mrs. MacDonald",
+        "meetingTime": ["Thursday"],
+        "calendar": "",
+        "image": ""
     },
     {
         "id": "3",
         "title": "DECA",
-        "subjects": "Business",
-        "meetingTime": "Monday",
-        "calendar": "https://calendar.google.com/calendar/embed?src=c_classroom279dec35%40group.calendar.google.com&ctz=America%2FNew_York"
+        "description": "Learn about business by picking a business related topic, learning about it, and competing through roleplaying business scenarios and completing an exam.",
+        "subjects": ["Business"],
+        "advisor": "Miss Fontaine",
+        "meetingTime": ["Monday"],
+        "calendar": "https://calendar.google.com/calendar/embed?src=c_classroom279dec35%40group.calendar.google.com&ctz=America%2FNew_York",
+        "image": ""
     },
     {
         "id": "4",
         "title": "Tri-M",
-        "subjects": "Music, Honors Society",
-        "meetingTime": "Thursday",
-        "calendar": ""
+        "description": "Spread music throughout the community and participate in events aroundn the music department.",
+        "subjects": ["Music", "Honors Society", "Service"],
+        "advisor": "Mrs. Redmond",
+        "meetingTime": ["Thursday"],
+        "calendar": "",
+        "image": ""
     },
     {
         "id": "5",
         "title": "Key Club",
-        "subjects": "Service",
-        "meetingTime": "Wednesday",
-        "calendar": ""
+        "description": "Help out around your commmunity with many different service opportunities.",
+        "subjects": ["Service"] ,
+        "advisor": "Mrs. St Onge",
+        "meetingTime": ["Wednesday"],
+        "calendar": "",
+        "image": ""
+    },
+    {
+        "id": "6",
+        "title": "Story Tellers Club",
+        "description": "Create and share storys of all kinds with different people.",
+        "subjects": ["Writing"],
+        "advisor": "Mr. Compagna",
+        "meetingTime": ["Thursday"],
+        "calendar": "",
+        "image": ""
+    },
+    {
+        "id": "7",
+        "title": "Math Team",
+        "description": "Go to different math events throughout the state where you compete in five different subjects of math.",
+        "subjects": ["Math"],
+        "advisor": "Mrs. Machnik",
+        "meetingTime": ["Wednesday"],
+        "calendar": "",
+        "image": ""
     }
+
 ]

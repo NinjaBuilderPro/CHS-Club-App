@@ -1,0 +1,46 @@
+.ClubComponent {
+    display: block;
+    font-size: 2vw;
+    border: 0.4vi solid rgb(0, 113, 4);
+    border-radius: 1vw;
+    position: relative;
+    width: 80vw;
+    background-color: white;
+    font-family: Arial;
+}
+
+.ClubTitle {
+    color: black;
+    font-size: 7vi;
+    font-weight: normal;
+    margin: 20vi;
+    max-height: 200vi;
+    margin-top: 3vi;
+    margin-bottom: 3vi;
+    max-width: 40vw;
+    text-shadow: 0.2vw 0.2vw gray;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.TheLine {
+    background-color: #f57d7d; 
+    width: 80vw; 
+    height: 0.2vw; 
+    position: relative; 
+}
+
+.ClubDescription {
+    color: black;
+    margin-left: 10vw;
+    text-align: center;
+    max-width: 60vw;
+}
+
+.ClubBody{
+    color: black;
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 4vw;
+}
