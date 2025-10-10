@@ -32,7 +32,7 @@
     {
         "id": "4",
         "title": "Tri-M",
-        "description": "Spread music throughout the community and participate in events aroundn the music department.",
+        "description": "Spread music throughout the community and participate in events around the music department.",
         "subjects": ["Music", "Honors Society", "Service"],
         "advisor": "Mrs. Redmond",
         "meetingTime": ["Thursday"],
@@ -69,5 +69,4 @@
         "calendar": "",
         "image": ""
     }
-
 ]
