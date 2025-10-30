@@ -8,6 +8,7 @@ interface ClubProps{
     calendar: string
     image: string
 }
+// @ts-ignore
 const ClubComponent = ({title, description, subjects, advisor, meetingTime, calendar, image}: ClubProps) => {
 return ( 
     <div className="ClubComponent" >
