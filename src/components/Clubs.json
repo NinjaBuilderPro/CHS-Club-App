@@ -51,6 +51,16 @@
     },
     {
         "ID": "",
+        "title": "Granite State Challenge",
+        "description": "Central's Granite State Challenge team competes in trivia surrounding various subject areas. Students complete a test to qualify for the Granite State Challenge show, where teams from different schools compete in a trivia tournament.",
+        "subjects": [""],
+        "advisor": "Mr. Doyle",
+        "meetingTime": [""],
+        "calendar": "",
+        "image": ""
+    },
+    {
+        "ID": "",
         "title": "GSA",
         "description": "The CHS Gender Sexuality Alliance is a group that advocates for the inclusion, support, and acceptance of people with diverse sexual orientations and gender identities. The alliance strives to promote understanding, acceptance, and respect within the community through various events celebrating diversity.",
         "subjects": [""],
@@ -82,7 +92,7 @@
     {
         "id": "",
         "title": "Maskers Drama Club",
-        "description": "._.",
+        "description": "Maskers is Central's theater / drama club. Students prepare plays and musicals for the school.",
         "subjects": [""] ,
         "advisor": "Ms. Potoma",
         "meetingTime": [""],
@@ -194,7 +204,7 @@
         "title": "World Language Honors Society",
         "description": "The purpose of the Central's World Language Honor Society is to recognize scholastic achievement in the study of German, French, Spanish and Latin. The Society promotes interest in the study of a world language and promotes cultural understanding within the Central community.",
         "subjects": ["Music", "Honors Society", "Service"],
-        "advisor": "._.",
+        "advisor": "Mrs. LeBrun",
         "meetingTime": ["Thursday"],
         "calendar": "",
         "image": ""
