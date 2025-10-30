@@ -12,7 +12,7 @@ const ClubComponent = ({title, description, subjects, advisor, meetingTime, cale
 return ( 
     <div className="ClubComponent" >
         <h1 className="ClubTitle">
-            <img src="/CHSLogo.png" style={{position: "absolute", width: "15vw", left: "5vw", top: "-1vw"}}/>
+            <img src="/CHSLogo.png" style={{position: "absolute", width: "12vw", left: "2vw", top: "0.3vw"}}/>
             {title}
             {image == "" ? "" : <img src={image} style={{position: "absolute", width: "15vw", right: "8vw", top: "1vw"}}/>}
         </h1>
@@ -21,9 +21,9 @@ return (
             {description}
         </p>
         <p className="ClubBody">
-            Subjects: {subjects}<br/>
+            {/* Subjects: {subjects}<br/> */}
             Advisor: {advisor}<br/>
-            Meeting Times: {meetingTime}<br/>
+            {/* Meeting Times: {meetingTime}<br/> */}
             {calendar=="" ? null : <a href={calendar} target="blank">Calendar</a>}
         </p>
     </div>

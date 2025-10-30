@@ -11,13 +11,15 @@
 
 .ClubTitle {
     color: black;
-    font-size: 7vi;
+    font-size: 6.2vi;
     font-weight: normal;
     margin: 20vi;
     max-height: 200vi;
     margin-top: 3vi;
     margin-bottom: 3vi;
-    max-width: 40vw;
+    margin-left: 16vi;
+    margin-right: 16vi;
+    max-width: 50vw;
     text-shadow: 0.2vw 0.2vw gray;
     text-align: center;
     font-family: sans-serif;
