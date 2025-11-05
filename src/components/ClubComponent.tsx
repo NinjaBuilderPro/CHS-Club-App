@@ -13,7 +13,7 @@ const ClubComponent = ({title, description, subjects, advisor, meetingTime, cale
 return ( 
     <div className="ClubComponent" >
         <h1 className="ClubTitle">
-            <img src="/CHSLogo.png" style={{position: "absolute", width: "12vw", left: "2vw", top: "0.3vw"}}/>
+            <img src="./CHSLogo.png" style={{position: "absolute", width: "12vw", left: "2vw", top: "0.3vw"}}/>
             {title}
             {image == "" ? "" : <img src={image} style={{position: "absolute", width: "15vw", right: "8vw", top: "1vw"}}/>}
         </h1>
