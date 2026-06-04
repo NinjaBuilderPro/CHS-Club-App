@@ -4,7 +4,7 @@
         "title": "Aglaia Yearbook",
         "description": "Capture the best parts of the year by working on central's Yearbook.",
         "subjects": [""],
-        "advisor": "Ms. Gemme",
+        "advisor": "Ms. O'Conner",
         "meetingTime": [""],
         "calendar": "",
         "image": ""
@@ -111,7 +111,7 @@
     },
     {
         "id": "",
-        "title": "National Art Honors Society",
+        "title": "National Art Honor Society",
         "description": "National Art Honor Society works with students who have a strong interest in the visual arts. Field trips and community based art activities encompass the activities.",
         "subjects": [""] ,
         "advisor": "Mr. Burgess",
@@ -121,7 +121,7 @@
     },
     {
         "id": "",
-        "title": "National English Honors Society",
+        "title": "National English Honor Society",
         "description": "Members are comprised of students who have maintained a B+ or better in every English class for at least three semesters, a cumulative 2.75 GPA, and must be actively passing all classes.",
         "subjects": [""] ,
         "advisor": "Ms. Pennington, Ms. MacDonald",
@@ -131,7 +131,7 @@
     },
     {
         "id": "",
-        "title": "National Honors Society",
+        "title": "National Honor Society",
         "description": "Students who have maintained a 3.5 unweighted or 9.0 weighted GPA will be invited to submit candidate information sheets to apply to NHS. Their candidacy will then be assessed based on their character, leadership, and volunteerism.",
         "subjects": [""] ,
         "advisor": "Mrs. Smith Tourigny",
@@ -192,8 +192,8 @@
     {
         "id": "",
         "title": "Tri-M",
-        "description": "Tri-M is the music honors society at Central. Members spread music throughout the community and participate in events around the music department.",
-        "subjects": ["Music", "Honors Society", "Service"],
+        "description": "Tri-M is the music honor society at Central. Members spread music throughout the community and participate in events around the music department.",
+        "subjects": ["Music", "Honor Society", "Service"],
         "advisor": "Mrs. Redmond",
         "meetingTime": ["Thursday"],
         "calendar": "",
@@ -201,9 +201,9 @@
     },
     {
         "id": "",
-        "title": "World Language Honors Society",
+        "title": "World Language Honor Society",
         "description": "The purpose of the Central's World Language Honor Society is to recognize scholastic achievement in the study of German, French, Spanish and Latin. The Society promotes interest in the study of a world language and promotes cultural understanding within the Central community.",
-        "subjects": ["Music", "Honors Society", "Service"],
+        "subjects": ["Music", "Honor Society", "Service"],
         "advisor": "Mrs. LeBrun",
         "meetingTime": ["Thursday"],
         "calendar": "",
